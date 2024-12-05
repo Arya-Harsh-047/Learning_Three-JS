@@ -1,6 +1,8 @@
 
 // console.log("Hello I am Harsh Arya");
 // console.log(THREE);
+
+// Targeting the html element
 const target = document.querySelector(".sceen");
 const scene = new THREE.Scene();
 
