@@ -16,7 +16,7 @@ scene.add(boxObj);
 
 
 
-//Now we are defining camera & adding it into scene
+//Now we are defining camera and its position & adding it into scene
 
 const size = {
     width: 700,
@@ -24,3 +24,9 @@ const size = {
 }
 const camera = new THREE.PerspectiveCamera( 45, width / height, 1, 1000 );
 scene.add( camera );
+camera.position.z = 4;
+
+
+
+
+
